@@ -1,5 +1,5 @@
-import React, { createContext, useState } from 'react';
-
+import React, { createContext, useState ,useContext } from 'react';
+// import { useParams, useNavigate } from 'react-router-dom'; 
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
@@ -53,3 +53,10 @@ export const CartProvider = ({ children }) => {
     </CartContext.Provider>
   );
 };
+export const useCart = () => {
+    const context = useContext(CartContext);
+    if (!context) {
+      throw new Error("useCart must be used within a CartProvider");
+    }
+    return context;
+  };
