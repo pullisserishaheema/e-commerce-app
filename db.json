@@ -1,15 +1,28 @@
+
+  
+
 {
     "products": [
-      { "id": 1, "name": "Product 1", "price": 20, "image": "https://i.gadgets360cdn.com/products/large/reno-13-db-645x800-1732623713.jpg?downsize=*:100" },
-      { "id": 2, "name": "Product 2", "price": 25, "image": "https://i.gadgets360cdn.com/products/large/vivo-s18e-649x800-1702640287.jpg?downsize=*:180" },
-      { "id": 3, "name": "Product 3", "price": 30, "image": "https://i.gadgets360cdn.com/products/small/Moto-G35-DB-240x180-1725003217.jpg?downsize=120:*" },
-      { "id": 4, "name": "Product 4", "price": 35, "image": "https://i.gadgets360cdn.com/products/small/Honor-300-DB-240x180-1733751581.jpg?downsize=120:*" },
-      { "id": 5, "name": "Product 5", "price": 40, "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180" },
-      { "id": 6, "name": "Product 6", "price": 45, "image": "https://i.gadgets360cdn.com/products/small/oneplus-13-240x180-1730372398.jpg?downsize=120:*" },
-      { "id": 7, "name": "Product 7", "price": 50, "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*" },
-      { "id": 8, "name": "Product 8", "price": 55, "image": "https://i.gadgets360cdn.com/products/large/samsung-galaxy-z-fold-6-special-edition-725x800-1729582931.jpg?downsize=*:180" },
-      { "id": 9, "name": "Product 9", "price": 60, "image": "https://i.gadgets360cdn.com/products/small/galaxy-a16-5g-samsung-db-240x180-1728298269.jpg?downsize=120:*" },
-      { "id": 10, "name": "Product 10", "price": 65, "image": "https://i.gadgets360cdn.com/products/small/galaxy-m55s-samsung-db-240x180-1727338890.jpg?downsize=120:*" }
+      { "id": 1, "name": "Oppo-Reno-13", "price": 11000, "image": "https://i.gadgets360cdn.com/products/large/reno-13-db-645x800-1732623713.jpg?downsize=*:100", "specification":"display size-6.7 inches | memory capacity-256 GB| water resistant" },
+      { "id": 2, "name": "vivo-s18e", "price": 12500, "image": "https://i.gadgets360cdn.com/products/large/vivo-s18e-649x800-1702640287.jpg?downsize=*:180", "specification":"2 GB RAM | 32 GB ROM|15.8 cm (6.22 inch) Display|13MP Rear Camera | 5MP Front Camera|4030 mAh Battery"},
+      { "id": 3, "name": "Moto-G35", "price": 15000, "image": "https://i.gadgets360cdn.com/products/small/Moto-G35-DB-240x180-1725003217.jpg?downsize=120:*", "specification" :"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB|17.07 cm (6.72 inch) |Full HD+ Display |50MP + 8MP | 16MP Front Camera|5000 mAh Battery|T760 Processor|12 5G Bands with VoNR|4K Video Recording|Vision Booster Technology"},
+      { "id": 4, "name": "Honor-300", "price": 17500, "image": "https://i.gadgets360cdn.com/products/small/Honor-300-DB-240x180-1733751581.jpg?downsize=120:*", "specification": "12 GB RAM | 512 GB ROM|17.22 cm (6.78 inch) |Full HD+ Super AMOLED Display|50MP + 50MP + 12MP | 50MP Front Camera|5200 mAh Battery|Snapdragon 8s Gen 3 Processor"},
+      { "id": 5, "name": "Mate-70-pro-plus", "price": 20000, "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180" , "specification":"12 GB RAM | 256 GB ROM|17.22 cm (6.78 inch)| WQHD Display|50MP + 48MP + 12MP + 8MP | 32MP Front Camera|4500 mAh Battery|Qualcomm Snapdragon| 888+ 5G Processor"},
+      { "id": 6, "name": "Oneplus-13", "price": 22500, "image": "https://i.gadgets360cdn.com/products/small/oneplus-13-240x180-1730372398.jpg?downsize=120:*" , "specification":"16 GB RAM | 256 GB ROM|17.22 cm (6.78 inch)| Display50MP| Rear Camera|5500 mAh Battery"},
+      { "id": 7, "name": "Poco-c75", "price": 25000, "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*" , "specification":"4 GB RAM | 64 GB ROM | Expandable Upto 1 TB|17.04 cm (6.71 inch) |HD+ Display|8MP Rear Camera | 5MP Front Camera|5000 mAh Battery|Helio G36 Processor"},
+      { "id": 8, "name": "Samsung-galaxy-z-fold", "price": 127500, "image": "https://i.gadgets360cdn.com/products/large/samsung-galaxy-z-fold-6-special-edition-725x800-1729582931.jpg?downsize=*:180" , "specification":"12 GB RAM | 512 GB ROM|15.75 cm (6.2 inch) Display|50MP + 12MP + 10MP|4400 mAh Battery|Snapdragon 8 Gen 2 Processor"},
+      { "id": 9, "name": "Galaxy-a16-5g-samsung", "price": 130000, "image": "https://i.gadgets360cdn.com/products/small/galaxy-a16-5g-samsung-db-240x180-1728298269.jpg?downsize=120:*", "specification": "8 GB RAM | 256 GB ROM|17.02 cm (6.7 inch) |Full HD+ Display|50MP + 5MP + 2MP | 13MP Front Camera|5000 mAh Battery|Dimensity 6300 Processor"},
+      { "id": 10, "name": "Galaxy-m55s-samsung", "price": 132500, "image": "https://i.gadgets360cdn.com/products/small/galaxy-m55s-samsung-db-240x180-1727338890.jpg?downsize=120:*" , "specification":"M55s 5G (Thunder Black,8GB RAM,128GB Storage) | 50MP Triple Cam| 5000mAh Battery| Snapdragon 7 Gen 1 | 4 Gen. OS Upgrade & 5 Year Security Update| Super AMOLED+ Display| Without Charger"}
+    ],
+    "user":[
+        {
+                "id":1,
+                "name":"kethar",
+                "email":"ketahrram@gmail.com",
+                "password":"12345",
+                "role":"user"
+        }
     ]
-  }
+
+}
   

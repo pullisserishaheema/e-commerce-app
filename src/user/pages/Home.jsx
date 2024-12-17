@@ -7,7 +7,7 @@ const Home = () => {
 
 
   useEffect(() => {
-    axios.get('http://localhost:5000/products')
+    axios.get('http://localhost:5000/products/')
       .then((response) => {
         setProducts(response.data);
       })
@@ -28,11 +28,11 @@ const Home = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-32 h-32 object-cover rounded-md mx-auto"
+              className="w-32 h-32 object-cover rounded-md  mx-auto"
             />
 
             <h3 className="mt-2 text-lg font-semibold">{product.name}</h3>
-            <p className="text-gray-600">${product.price}</p>
+            <p className="text-gray-600">₹{product.price}</p>
             <button
               className="mt-4 w-full py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200"
             >
