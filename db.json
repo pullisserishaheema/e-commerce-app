@@ -1,0 +1,15 @@
+{
+    "products": [
+      { "id": 1, "name": "Product 1", "price": 20, "image": "https://i.gadgets360cdn.com/products/large/reno-13-db-645x800-1732623713.jpg?downsize=*:100" },
+      { "id": 2, "name": "Product 2", "price": 25, "image": "https://i.gadgets360cdn.com/products/large/vivo-s18e-649x800-1702640287.jpg?downsize=*:180" },
+      { "id": 3, "name": "Product 3", "price": 30, "image": "https://i.gadgets360cdn.com/products/small/Moto-G35-DB-240x180-1725003217.jpg?downsize=120:*" },
+      { "id": 4, "name": "Product 4", "price": 35, "image": "https://i.gadgets360cdn.com/products/small/Honor-300-DB-240x180-1733751581.jpg?downsize=120:*" },
+      { "id": 5, "name": "Product 5", "price": 40, "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180" },
+      { "id": 6, "name": "Product 6", "price": 45, "image": "https://i.gadgets360cdn.com/products/small/oneplus-13-240x180-1730372398.jpg?downsize=120:*" },
+      { "id": 7, "name": "Product 7", "price": 50, "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*" },
+      { "id": 8, "name": "Product 8", "price": 55, "image": "https://i.gadgets360cdn.com/products/large/samsung-galaxy-z-fold-6-special-edition-725x800-1729582931.jpg?downsize=*:180" },
+      { "id": 9, "name": "Product 9", "price": 60, "image": "https://i.gadgets360cdn.com/products/small/galaxy-a16-5g-samsung-db-240x180-1728298269.jpg?downsize=120:*" },
+      { "id": 10, "name": "Product 10", "price": 65, "image": "https://i.gadgets360cdn.com/products/small/galaxy-m55s-samsung-db-240x180-1727338890.jpg?downsize=120:*" }
+    ]
+  }
+  
