@@ -1,6 +1,6 @@
 
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import { UserProvider } from './contexts/UserContext';
 import Navbar from './components/Navbar';
 import Home from './user/pages/Home';
@@ -15,25 +15,25 @@ import ProductDetails from './user/pages/ProductDetails';
 
 function App() {
   return (
-    <UserProvider>
-    <Router>
-              <div className="App">
-              <Navbar/>
-              
-              <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/order" element={<Order />} />
-                  <Route path="/cart" element={<Cart />} />
-                  <Route path='/signup' element={<Signup />} />
-                  <Route path="/login" element={<Login />} />
-                  <Route path="/productdetails" element={<ProductDetails/>} />
-              </Routes>
+    <BrowserRouter>
+        <UserProvider>
           
+                  <div className="App">
+                    <Navbar/>
+                    
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/order" element={<Order />} />
+                        <Route path="/cart" element={<Cart />} />
+                        <Route path='/signup' element={<Signup />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/product/:productId" element={<ProductDetails/>} />
+                    </Routes>
+                    <Footer/>
+                  </div>
       
-              <Footer/>
-              </div>
-    </Router>
-    </UserProvider>
+        </UserProvider>
+      </BrowserRouter>
   );
 }
 

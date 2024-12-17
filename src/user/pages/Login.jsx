@@ -8,7 +8,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/login', { email, password });
+      const response = await axios.post('http://localhost:5000/login{ email, password }');
       localStorage.setItem('authToken', response.data.token);  // Store token
       alert('Login successful!');
     } catch (error) {
