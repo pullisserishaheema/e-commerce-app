@@ -7,9 +7,11 @@ import Home from './user/pages/Home';
 import Footer from  './components/Footer';
 import Order from './user/pages/Order';
 import Cart from './user/pages/Cart';
+import Checkout from './user/pages/Checkout';
 import Login from './user/pages/Login';
 import Signup from './user/pages/Signup';
 import ProductDetails from './user/pages/ProductDetails';
+import { CartProvider } from './contexts/CartContext';
 
 
 
@@ -17,7 +19,8 @@ function App() {
   return (
     <BrowserRouter>
         <UserProvider>
-          
+          <CartProvider>
+
                   <div className="App">
                     <Navbar/>
                     
@@ -25,13 +28,14 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/order" element={<Order />} />
                         <Route path="/cart" element={<Cart />} />
+                        <Route path="/checkout" element={<Checkout />} /> 
                         <Route path='/signup' element={<Signup />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/product/:productId" element={<ProductDetails/>} />
                     </Routes>
                     <Footer/>
                   </div>
-      
+          </CartProvider>
         </UserProvider>
       </BrowserRouter>
   );
