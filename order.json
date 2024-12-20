@@ -1,0 +1,48 @@
+{
+  "order": [
+    {
+      "id": "c858",
+      "user": "anaya",
+      "items": [
+        {
+          "id": "8",
+          "name": "Samsung-galaxy-z-fold",
+          "quantity": 1,
+          "price": 127500
+        }
+      ],
+      "total": 127500,
+      "paymentMethod": "Credit Card",
+      "address": {
+        "street": "kakkad",
+        "city": "tirurangadi",
+        "state": "kerala",
+        "pin": "676305",
+        "country": "india"
+      },
+      "date": "2024-12-20T10:23:40.985Z"
+    },
+    {
+      "id": "deba",
+      "user": "qwe",
+      "items": [
+        {
+          "id": "3",
+          "name": "Moto-G35",
+          "quantity": 5,
+          "price": 15000
+        }
+      ],
+      "total": 75000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kakkad",
+        "city": "tirurangadi",
+        "state": "kerala",
+        "pin": "676305",
+        "country": "india"
+      },
+      "date": "2024-12-20T10:46:48.999Z"
+    }
+  ]
+}

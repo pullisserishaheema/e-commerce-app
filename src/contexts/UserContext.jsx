@@ -1,62 +1,54 @@
-// import React, { createContext, useState, useContext } from 'react';
-// import Login from '../user/pages/Login';
+//
+
+// import React, { createContext, useState, useContext, useEffect } from 'react';
 
 // const UserContext = createContext();
 
-// export const useUser = () => {
-//   return useContext(UserContext);
-// };
+// export const useUser = () => useContext(UserContext);
 
 // export const UserProvider = ({ children }) => {
-//   const [user, setUser] = useState(null);
+//   const [user, setUser] = useState(null); // User state
+//   const [token, setToken] = useState(localStorage.getItem('authToken') || null);
 
-//   const login = (userData) => {
+//   // Save token to localStorage when it changes
+//   useEffect(() => {
+//     if (token) {
+//       localStorage.setItem('authToken', token);
+//     } else {
+//       localStorage.removeItem('authToken');
+//     }
+//   }, [token]);
+
+//   const login = (userData, token) => {
 //     setUser(userData);
+//     setToken(token);
 //   };
 
 //   const logout = () => {
 //     setUser(null);
+//     setToken(null);
 //   };
 
 //   return (
-//     <UserContext.Provider value={{ user,logout,login}}>
+//     <UserContext.Provider value={{ user, token, login, logout }}>
 //       {children}
 //     </UserContext.Provider>
 //   );
 // };
 
 
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState,useContext } from 'react';
 
-const UserContext = createContext();
+export const UserContext = createContext();
+
 
 export const useUser = () => useContext(UserContext);
 
 export const UserProvider = ({ children }) => {
-  const [user, setUser] = useState(null); // User state
-  const [token, setToken] = useState(localStorage.getItem('authToken') || null);
-
-  // Save token to localStorage when it changes
-  useEffect(() => {
-    if (token) {
-      localStorage.setItem('authToken', token);
-    } else {
-      localStorage.removeItem('authToken');
-    }
-  }, [token]);
-
-  const login = (userData, token) => {
-    setUser(userData);
-    setToken(token);
-  };
-
-  const logout = () => {
-    setUser(null);
-    setToken(null);
-  };
+  const [user, setUser] = useState(localStorage.getItem("username") || null); // Holds user data
 
   return (
-    <UserContext.Provider value={{ user, token, login, logout }}>
+    <UserContext.Provider value={{ user, setUser }}>
       {children}
     </UserContext.Provider>
   );

@@ -1,8 +1,8 @@
 import Footer from '../components/Footer'
 import { Routes, Route } from 'react-router-dom';
 import Home from '../user/pages/Home';
-import Signup from '../user/pages/Signup';
-import Login from '../user/pages/Login';
+import Signup from '../components/Signup';
+import Login from '../components/Login';
 import ProductDetails from '../user/pages/ProductDetails';
 import Cart from '../user/pages/Cart';
 import Order from '../user/pages/Order';
@@ -22,7 +22,7 @@ const UserRouter = () => {
                         <Route path="/login" element={<Login />} />
                         <Route path="/product/:productId" element={<ProductDetails />} />
                         <Route path="/cart" element={<Cart />} />
-                        <Route path="/orders" element={<Order />} />
+                        <Route path="/order" element={<Order />} />
                         <Route path="/checkout" element={<Checkout />} />
 
                     </Routes>
