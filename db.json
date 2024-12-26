@@ -150,6 +150,14 @@
       "role": "user",
       "blocked": false,
       "cart": []
+    },
+    {
+      "id": "8499",
+      "name": "kethar",
+      "email": "kethar@gmail.com",
+      "password": "kethar",
+      "role": "user",
+      "blocked": false
     }
   ],
   "orders": [
