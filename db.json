@@ -1,20 +1,18 @@
 {
-  "products": [
+  "mobiles": [
     {
       "id": "1",
-      "name": "Oppo-Reno-13",
-      "price": 11000,
-      "image": "https://i.gadgets360cdn.com/products/large/reno-13-db-645x800-1732623713.jpg?downsize=*:100",
-      "specification": [
-        "display size-6.7 inches | memory capacity-256 GB| water resistant"
-      ]
+      "name": "Oppo-Reno 12",
+      "price": "30999",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/4/t/reno12-5g-cph2625-oppo-original-imah65ynky4wkbga.jpeg?q=70",
+      "description": "8 GB RAM | 256 GB ROM | Expandable Upto 1 TB|17.02 cm (6.7 inch) Full HD+Display|50MP + 50MP + 8MP + 2MP | 32MP +32MPDuaFront Camera|5000 mAh Battery|Dimensity 7300 Energy Processor"
     },
     {
       "id": "2",
       "name": "vivo-s18e",
       "price": 12500,
       "image": "https://i.gadgets360cdn.com/products/large/vivo-s18e-649x800-1702640287.jpg?downsize=*:180",
-      "specification": [
+      "description": [
         "2 GB RAM | 32 GB ROM|15.8 cm (6.22 inch) Display|13MP Rear Camera | 5MP Front Camera|4030 mAh Battery"
       ]
     },
@@ -23,7 +21,7 @@
       "name": "Moto-G35",
       "price": 15000,
       "image": "https://i.gadgets360cdn.com/products/small/Moto-G35-DB-240x180-1725003217.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB|17.07 cm (6.72 inch) |Full HD+ Display |50MP + 8MP | 16MP Front Camera|5000 mAh Battery|T760 Processor|12 5G Bands with VoNR|4K Video Recording|Vision Booster Technology"
       ]
     },
@@ -32,7 +30,7 @@
       "name": "Honor-300",
       "price": 17500,
       "image": "https://i.gadgets360cdn.com/products/small/Honor-300-DB-240x180-1733751581.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "12 GB RAM | 512 GB ROM|17.22 cm (6.78 inch) |Full HD+ Super AMOLED Display|50MP + 50MP + 12MP | 50MP Front Camera|5200 mAh Battery|Snapdragon 8s Gen 3 Processor"
       ]
     },
@@ -41,7 +39,7 @@
       "name": "Mate-70-pro-plus",
       "price": 20000,
       "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180",
-      "specification": [
+      "description": [
         "12 GB RAM | 256 GB ROM|17.22 cm (6.78 inch)| WQHD Display|50MP + 48MP + 12MP + 8MP | 32MP Front Camera|4500 mAh Battery|Qualcomm Snapdragon| 888+ 5G Processor"
       ]
     },
@@ -50,7 +48,7 @@
       "name": "Oneplus-13",
       "price": 22500,
       "image": "https://i.gadgets360cdn.com/products/small/oneplus-13-240x180-1730372398.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "16 GB RAM | 256 GB ROM|17.22 cm (6.78 inch)| Display50MP| Rear Camera|5500 mAh Battery"
       ]
     },
@@ -59,7 +57,7 @@
       "name": "Poco-c75",
       "price": 25000,
       "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB|17.04 cm (6.71 inch) |HD+ Display|8MP Rear Camera | 5MP Front Camera|5000 mAh Battery|Helio G36 Processor"
       ]
     },
@@ -68,7 +66,7 @@
       "name": "Samsung-galaxy-z-fold",
       "price": 127500,
       "image": "https://i.gadgets360cdn.com/products/large/samsung-galaxy-z-fold-6-special-edition-725x800-1729582931.jpg?downsize=*:180",
-      "specification": [
+      "description": [
         "12 GB RAM | 512 GB ROM|15.75 cm (6.2 inch) Display|50MP + 12MP + 10MP|4400 mAh Battery|Snapdragon 8 Gen 2 Processor"
       ]
     },
@@ -77,7 +75,7 @@
       "name": "Galaxy-a16-5g-samsung",
       "price": 130000,
       "image": "https://i.gadgets360cdn.com/products/small/galaxy-a16-5g-samsung-db-240x180-1728298269.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "8 GB RAM | 256 GB ROM|17.02 cm (6.7 inch) |Full HD+ Display|50MP + 5MP + 2MP | 13MP Front Camera|5000 mAh Battery|Dimensity 6300 Processor"
       ]
     },
@@ -86,59 +84,124 @@
       "name": "Galaxy-m55s-samsung",
       "price": 132500,
       "image": "https://i.gadgets360cdn.com/products/small/galaxy-m55s-samsung-db-240x180-1727338890.jpg?downsize=120:*",
-      "specification": [
+      "description": [
         "M55s 5G (Thunder Black,8GB RAM,128GB Storage) | 50MP Triple Cam| 5000mAh Battery| Snapdragon 7 Gen 1 | 4 Gen. OS Upgrade & 5 Year Security Update| Super AMOLED+ Display| Without Charger"
       ]
+    },
+    {
+      "id": "ac55",
+      "name": "iPhone 16 pro max",
+      "price": "184900",
+      "description": "5G Mobile Phone with Camera Control| 4K 120 fps Dolby Vision | a Huge Leap in Battery Life| Works with AirPods| Black Titanium",
+      "image": "https://m.media-amazon.com/images/I/31JDUhTPoLL._SY445_SX342_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "a0a8",
+      "name": "Samsung Galaxy Z Flip4 5G",
+      "price": "57490",
+      "description": "8 GB RAM | 512 GB ROM|17.02 cm (6.7 inch) Display|12MP + 12MP | 10MP Front Camera| 3700 mAh Battery| Snapdragon 8 Gen 2 Processor\n",
+      "image": "https://m.media-amazon.com/images/I/610PI9zfgxL._SX679_.jpg"
+    },
+    {
+      "id": "1641",
+      "name": "POCO C61",
+      "price": "9999",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB|17.04 cm (6.71 inch) HD+Display|8MP Rear Camera | 5MP Front Camera|5000 mAh Battery|Helio G36 Processor",
+      "image": "https://m.media-amazon.com/images/I/71bQeLHQF-L._SY741_.jpg"
+    },
+    {
+      "id": "b40b",
+      "name": "SAMSUNG Galaxy Z Fold5 ",
+      "price": "154999",
+      "description": "12 GB RAM | 512 GB ROM15.75 cm (6.2 inch) Display|50MP + 12MP + 10MP|4400 mAh Battery| Snapdragon 8 Gen 2 Processor\n",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/j/k/-original-imagztmggmgfdt8d.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "5cad",
+      "name": "LAVA Blaze 3 5G",
+      "price": "10999",
+      "description": "6 GB RAM | 128 GB ROM|16.66 cm (6.56 inch) Display|50MP Rear Camera|5000 mAh Battery",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/4/r/blaze-3-5g-blaze-3-5g-lava-original-imah6zzrf8uyzjeb.jpeg?q=70&crop=false"
     }
   ],
-  "user": [
+  "users": [
     {
-      "id": "1",
-      "username": "kethar",
-      "password": "12345"
+      "id": "5a1d",
+      "name": "Shaheema Pullisseri",
+      "email": "pullisserishaheema@gmail.com",
+      "password": "nunu123",
+      "role": "admin",
+      "blocked": false
     },
     {
-      "id": "f3f4",
-      "username": "saad",
-      "password": "saad123"
+      "id": "a12f",
+      "name": "anaya",
+      "email": "anayashajid@123",
+      "password": "anuanaya",
+      "role": "user",
+      "blocked": false,
+      "cart": []
     },
     {
-      "id": "3ba1",
-      "username": "anaya",
-      "password": "anu"
-    },
-    {
-      "id": "1055",
-      "username": "qwe",
-      "password": "qwe"
-    },
-    {
-      "id": "e39f",
-      "username": "hana",
-      "password": "hana123"
+      "id": "9945",
+      "name": "shihaam",
+      "email": "chinnu@gmail.com",
+      "password": "chinnu123",
+      "role": "user",
+      "blocked": false,
+      "cart": []
     }
   ],
-  "cart": [
+  "orders": [
     {
-      "id": "1",
-      "name": "Oppo-Reno-13",
-      "price": 11000,
-      "image": "https://i.gadgets360cdn.com/products/large/reno-13-db-645x800-1732623713.jpg?downsize=*:100",
-      "specification": [
-        "display size-6.7 inches | memory capacity-256 GB| water resistant"
+      "id": "b1fe",
+      "userId": "9945",
+      "userName": "shihaam",
+      "items": [
+        {
+          "id": "8",
+          "name": "Samsung-galaxy-z-fold",
+          "price": 127500,
+          "image": "https://i.gadgets360cdn.com/products/large/samsung-galaxy-z-fold-6-special-edition-725x800-1729582931.jpg?downsize=*:180",
+          "description": [
+            "12 GB RAM | 512 GB ROM|15.75 cm (6.2 inch) Display|50MP + 12MP + 10MP|4400 mAh Battery|Snapdragon 8 Gen 2 Processor"
+          ],
+          "qty": 1
+        }
       ],
-      "user": "anaya"
+      "total": 127500,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "Name": "shihaam",
+        "Address": "kolappuram, malappuram",
+        "Number": "9876543210"
+      },
+      "date": "2024-12-25T17:50:18.918Z"
     },
     {
-      "id": "3",
-      "name": "Moto-G35",
-      "price": 15000,
-      "image": "https://i.gadgets360cdn.com/products/small/Moto-G35-DB-240x180-1725003217.jpg?downsize=120:*",
-      "specification": [
-        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB|17.07 cm (6.72 inch) |Full HD+ Display |50MP + 8MP | 16MP Front Camera|5000 mAh Battery|T760 Processor|12 5G Bands with VoNR|4K Video Recording|Vision Booster Technology"
+      "id": "2b7b",
+      "userId": "a12f",
+      "userName": "anaya",
+      "items": [
+        {
+          "id": "2",
+          "name": "vivo-s18e",
+          "price": 12500,
+          "image": "https://i.gadgets360cdn.com/products/large/vivo-s18e-649x800-1702640287.jpg?downsize=*:180",
+          "description": [
+            "2 GB RAM | 32 GB ROM|15.8 cm (6.22 inch) Display|13MP Rear Camera | 5MP Front Camera|4030 mAh Battery"
+          ],
+          "qty": 1
+        }
       ],
-      "user": "qwe",
-      "quantity": 5
+      "total": 12500,
+      "paymentMethod": "Credit Card",
+      "address": {
+        "Name": "anaya",
+        "Address": "muttichira,malappuram",
+        "Number": "1234567899"
+      },
+      "date": "2024-12-25T18:23:55.872Z"
     }
   ]
 }
