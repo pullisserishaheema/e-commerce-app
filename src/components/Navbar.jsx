@@ -214,7 +214,7 @@ function Navbar() {
     const handleProductClick = (productId)=>{
       setShowModal(false)
       setSearchTerm("");
-      navigate(`/product/${productId}`)
+      navigate(`/product-details/${productId}`)
     }
 
   return (
